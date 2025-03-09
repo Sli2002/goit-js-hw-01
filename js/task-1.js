@@ -4,7 +4,11 @@ function makeTransaction(quantity, pricePerDroid) {
   return transaction;
 }
 
-const transactionMake = makeTransaction(5, 3000);
-const transactionMake = makeTransaction(3, 1000);
-const transactionMake = makeTransaction(10, 500);
-console.log(transactionMake);
+const transactionMake1 = makeTransaction(5, 3000);
+console.log(transactionMake1);
+
+const transactionMake2 = makeTransaction(3, 1000);
+console.log(transactionMake2);
+
+const transactionMake3 = makeTransaction(10, 500);
+console.log(transactionMake3);

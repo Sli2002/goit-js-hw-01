@@ -6,8 +6,9 @@ function getElementWidth(content, padding, border) {
   return element;
 }
 
-const getElement = getElementWidth("50px", "8px", "4px");
-const getElement = getElementWidth("60px", "12px", "8.5px");
-const getElement = getElementWidth("200px", "0px", "0px");
-
-console.log(getElement);
+const getElement1 = getElementWidth("50px", "8px", "4px");
+console.log(getElement1);
+const getElement2 = getElementWidth("60px", "12px", "8.5px");
+console.log(getElement2);
+const getElement3 = getElementWidth("200px", "0px", "0px");
+console.log(getElement3);
